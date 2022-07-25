@@ -7,11 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>panda commerce</title>
     <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <!--custom css -->
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="./images/logo.png" alt="" class="d-inline-block align-text-top">
@@ -28,13 +30,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shose">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">subscribe</a>
+                            <a class="nav-link" href="#Subscribe">Subscribe</a>
                         </li>
 
 
@@ -46,7 +48,7 @@
         <section class="mt-5">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active bg-warning border rounded p-5">
+                    <div class="carousel-item active border rounded panda-bg-info p-5">
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center ">
                                 <div>
@@ -54,7 +56,7 @@
                                     <p>This is the best headphone in the world for prople who just want to waste time in
                                         font of funky world</p>
                                     <h1>$420</h1>
-                                    <div class="btn btn-info">
+                                    <div class="btn panda-btn">
                                         Buy Now
                                     </div>
                                 </div>
@@ -64,7 +66,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item active bg-warning border rounded p-5">
+                    <div class="carousel-item active panda-bg-info border rounded p-5">
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center ">
                                 <div>
@@ -72,7 +74,7 @@
                                     <p>This is the best headphone in the world for prople who just want to waste time in
                                         font of funky world</p>
                                     <h1>$1200</h1>
-                                    <div class="btn btn-info">
+                                    <div class="btn panda-btn">
                                         Buy Now
                                     </div>
                                 </div>
@@ -82,7 +84,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item active bg-warning border rounded p-5">
+                    <div class="carousel-item active panda-bg-info border rounded p-5">
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center ">
                                 <div>
@@ -90,7 +92,7 @@
                                     <p>This is the best headphone in the world for prople who just want to waste time in
                                         font of funky world</p>
                                     <h1>$600</h1>
-                                    <div class="btn btn-info">
+                                    <div class="btn panda-btn">
                                         Buy Now
                                     </div>
                                 </div>
@@ -100,8 +102,6 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                     data-bs-slide="prev">
@@ -124,7 +124,7 @@
 
         <section>
             <div class="container text-center my-5">
-                <div class="row g-3">
+                <div class="row g-3 cetagori">
                     <!--single cetagori-->
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="p-1 border bg-warning rounded-3 d-flex align-items-center justify-content-around">
@@ -152,7 +152,7 @@
         </section>
         <!-----------categoreis end--------->
         <!--shoes section start-->
-        <section class="container my-5">
+        <section class="container my-5" id="shose">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -165,7 +165,7 @@
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-warning">
+                            <div class="btn panda-btn">
                                 Buy Now </div>
                         </div>
                     </div>
@@ -180,7 +180,7 @@
                                 content.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-primary">
+                            <div class="btn panda-btn">
                                 Buy Now </div>
                         </div>
                     </div>
@@ -196,7 +196,7 @@
                                 height action.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-secondary">
+                            <div class="btn panda-btn">
                                 Buy Now </div>
                         </div>
                     </div>
@@ -208,7 +208,7 @@
         <!--------shoes section end-------->
 
         <!-- bagpack section start -->
-        <section class="container my-5">
+        <section class="container my-5" id="backpack">
             <h2>Backpack</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -221,7 +221,7 @@
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-warning">
+                            <div class="btn panda-btn">
                                 Buy Now </div>
                         </div>
                     </div>
@@ -236,7 +236,7 @@
                                 content.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-primary">
+                            <div class="btn panda-btn">
                                 Buy Now </div>
                         </div>
                     </div>
@@ -252,7 +252,7 @@
                                 height action.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-secondary">
+                            <div class="btn panda-btn">
                                 Buy Now </div>
                         </div>
                     </div>
@@ -261,8 +261,27 @@
 
         </section>
         <!-- bagpack section end  -->
+        <!--subscribe start-->
+        <section style="height:250px ;"
+            class="container rounded-3 d-flex justify-content-center align-items-center panda-bg-info" id="Subscribe">
+            <div>
+                <h2>LET'S STAY IN TOUCH</h2>
+                <P>Get updates on sales,specials and more</P>
+                <form>
+                    <div class=" mb-1">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <button type="submit" class="btn panda-btn">Submit</button>
+                </form>
+            </div>
+        </section>
+        <!--subscribe end -->
 
     </main>
+    <!--footer start-->
+    <footer class="text-center mt-5">
+        <p><small> ©2022.panda commerce.all right reserved.alow bangladesh </small></p>
+    </footer>
 
     <script src="./bootstrap/bootstrap.min.js"></script>
 </body>
